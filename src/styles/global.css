@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --palette-1: #008966;
+  --palette-2: #00804c;
+  --palette-3: #00804b;
+  --palette-4: #e8e2cf;
+  --base: #fcfcfc;
+}
+
+@theme inline {
+  --color-palette-1: var(--palette-1);
+  --color-palette-2: var(--palette-2);
+  --color-palette-3: var(--palette-3);
+  --color-palette-4: var(--palette-4);
+  --color-base: var(--base);
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
